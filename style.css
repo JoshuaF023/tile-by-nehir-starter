@@ -25,6 +25,12 @@ img {
   max-width: 250px;
 }
 
+/* Add hover effect for images */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 /* Optional decorative border for each tile */
 .border-tile {
   border: 20px solid transparent;
